@@ -1,4 +1,3 @@
-
 .container {
   display: inline-block;
   cursor: pointer;
@@ -31,7 +30,7 @@ h1 {
 }
 
 button {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Sono', sans-serif;
     background-color: white;
     font-size: 20px;
     color: black;
@@ -79,15 +78,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Sono', sans-serif;
     font-size: 20 px;
-    color: grey;
     text-align: center;
 }
 
 .trabajos1 {
     display: flex;
-    padding-top: 200px;
+    padding-top: 50px;
     text-align: center;
     justify-content: space-between;
     padding-left: 150px;
@@ -108,6 +106,14 @@ h4 {
 }
 
 h5 {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Sono', sans-serif;
     font-size: 15px;
 }
+
+img {
+    width: 350px;
+    height: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
