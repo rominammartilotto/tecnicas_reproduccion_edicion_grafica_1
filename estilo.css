@@ -65,7 +65,10 @@ button {
 
 
 hr {
+    height:1px;
+    border-width:0;
     color: black;
+    background-color: black;
 }
 
 h2 {
