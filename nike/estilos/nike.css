@@ -1,0 +1,100 @@
+#cajaSuperior {
+    background-image: url(../imagenes/fondo.jpg);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    padding-left: 300px;
+    width: 100vw;
+    height: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    list-style: none;
+    padding-top: 400px;
+
+}
+
+.menu li {
+    display: inline;
+}
+.menu a {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+
+}
+
+h2 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+}
+
+div {
+    margin: auto;
+}
+
+#centro {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    width: 600px;
+}
+
+#inferior {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    background-color: black;
+    line-height: 1.5;
+}
+
+.lista {
+    padding-top: 50px;
+}
+
+ul {
+    padding: 0;
+}
+
+.enlaces:hover {
+    text-decoration-line: underline;
+    color:blueviolet;
+}
+
+.sinenlaces:hover {
+    text-decoration-line:line-through;
+}
