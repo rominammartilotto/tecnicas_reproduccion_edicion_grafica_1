@@ -1,0 +1,97 @@
+h1 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+}
+
+h3 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+img {
+    width: 250px;
+    height: 310px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h4 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
+.flex-container2 {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-weight:bolder;
+}
+
+.instagram {
+    text-decoration: none;
+}
+
+.menu {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+  }
+
+  .menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    color: red;
+  }
