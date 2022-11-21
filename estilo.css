@@ -127,3 +127,11 @@ img {
     padding-right: 15px;
 }
 
+.trabajos2 {
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
