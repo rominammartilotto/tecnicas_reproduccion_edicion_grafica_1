@@ -1,9 +1,9 @@
 body {
     background-image: url("./img/fondo-1400x860.jpg");
-    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
-
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
@@ -38,9 +38,9 @@ button {
 
 }
 
-.menu {
+a {
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: gainsboro;
     text-decoration: none;
     padding-top: 15px;
     padding-right: 70px;
