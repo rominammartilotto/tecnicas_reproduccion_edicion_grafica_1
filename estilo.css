@@ -92,13 +92,23 @@ h3 {
     padding-right: 150px;
 } 
 
-.zoom {
-    transition: transform .2s; 
-}
- 
 .zoom:hover {
-    transform: scale(1.5); 
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  cursor: pointer;
 }
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 
 h4 {
     font-family: 'Syne', sans-serif;
