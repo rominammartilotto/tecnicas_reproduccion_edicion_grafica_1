@@ -105,11 +105,6 @@ h4 {
     padding-bottom: 40px;
 }
 
-.sanserif {
-    display: flex;
-    justify-content: space-around;
-}
-
 .roboto {
     font-family: 'Roboto', sans-serif;
 }
