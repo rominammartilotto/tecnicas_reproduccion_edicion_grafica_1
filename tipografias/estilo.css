@@ -66,10 +66,7 @@ h1 {
     padding-bottom: 40px;
 }
 
-.conserifa {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 h2 {
     color: white;
@@ -124,6 +121,9 @@ h4 {
     border-radius: 25px; 
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .tipo4, .tipo5, .tipo6 {
@@ -133,4 +133,7 @@ h4 {
     border-radius: 25px; 
     padding-left: 20px; 
     padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
