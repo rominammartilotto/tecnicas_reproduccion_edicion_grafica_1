@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+}
+
+a {
+    font-family: 'Unbounded', cursive;
+    color: white !important;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: white;
+    background-color: white;
+}
+
+.titulo-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.titulo {
+    font-family: 'Prata', serif;
+    height: fit-content;
+    font-size: 70vh;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    overflow: hidden;
+    animation: desplazamiento 10s linear infinite;
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.titulo p {
+    display: inline-block;
+}
+
+
+h1 {
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.serifa {
+    padding-top: 10px;
+}
+
+.conserifa {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 15;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: white;
+    font-size: 50px;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.zilla {
+    font-family: 'Zilla Slab', serif;
+}
+
+.abril {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.sanserif {
+    display: flex;
+    justify-content: space-around;
+}
