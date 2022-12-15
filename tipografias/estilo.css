@@ -61,7 +61,7 @@ h1 {
     text-align: center;
 }
 
-.serifa {
+#serifa {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -86,7 +86,7 @@ h4 {
     font-family: 'Abril Fatface', cursive;
 }
 
-.sinserifa {
+#sinserifa {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -147,7 +147,7 @@ h7 {
     font-size: 15px;
 }
 
-.caligraficas {
+#caligraficas {
     padding-top: 40px;
     padding-bottom: 40px;
 }
