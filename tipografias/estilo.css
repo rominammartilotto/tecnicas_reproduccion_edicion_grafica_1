@@ -145,5 +145,41 @@ h7 {
     padding-top: 80px;
     padding-bottom: 30px;
     font-size: 15px;
+}
 
+.caligraficas {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tipo7, .tipo8, .tipo9 {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+h8 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+h9 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+h10 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
 }
