@@ -1,0 +1,14 @@
+.col-sm-12 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.col-sm-4 {
+    background-color: orange;
+    color: white;
+}
+
+.col-sm-8 {
+    background-color:aquamarine;
+    color: black;
+}
