@@ -70,7 +70,7 @@
 
 .comentarios {
     display: flex;
-    padding-top: 70px; 
+    padding-top: 130px; 
     text-align: center;
     justify-content: space-between;
     padding-left: 100px;
@@ -81,5 +81,6 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: black;
-    font-size: 15px; 
+    font-size: 15px !important;
+    padding-top: 20px;
 }
