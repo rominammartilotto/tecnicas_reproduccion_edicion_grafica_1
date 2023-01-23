@@ -30,11 +30,11 @@
             <div class="col-sm-6 menu d-flex">
                 <a class="link hover-underline-animation" href="#trabajos">TRABAJOS</a>
                 <a class="link hover-underline-animation" href="#sobre">SOBRE MI</a>
-                <a class="link hover-underline-animation" href="#cafe">CAFÉS</a>
-                <a class="link hover-underline-animation" href="#playlist">MÚSICA</a>
-                <a class="link hover-underline-animation" href="#instagram">INSTAGRAM</a>
+                <a class="link hover-underline-animation" href="https://www.buymeacoffee.com/rominamarino">CAFÉS</a>
+                <a class="link hover-underline-animation" href="https://open.spotify.com/playlist/37i9dQZF1DX35DWKgAk2B5?si=287160f294ce408d">MÚSICA</a>
+                <a class="link hover-underline-animation" href="https://www.instagram.com/romihacecosaschulis/">INSTAGRAM</a>
             </div>
-            <div class="col-sm-3 boton"><a href="#" class="linkote">¿TRABAJAMOS JUNTOS? ↗</a> </div>
+            <div class="col-sm-3 boton"><a href="mailto:rominamarino@alu.easda.es" class="linkote">¿TRABAJAMOS JUNTOS? ↗</a> </div>
         </div>
 
         <div class="row cuerpazo border border-top-0 border-3 border-dark">
@@ -67,105 +67,38 @@
             </div>
         </div>
 
-
-        <script>
-            let items = document.querySelectorAll('.carousel .carousel-item')
-
-            items.forEach((el) => {
-                const minPerSlide = 4
-                let next = el.nextElementSibling
-                for (var i = 1; i < minPerSlide; i++) {
-                    if (!next) {
-                        // wrap carousel by using first child
-                        next = items[0]
-                    }
-                    let cloneChild = next.cloneNode(true)
-                    el.appendChild(cloneChild.children[0])
-                    next = next.nextElementSibling
-                }
-            })
-        </script>
-
-
-        <div class="container text-center my-3">
-            <div class="row mx-auto my-auto justify-content-center">
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-07.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
+        <div id="carouselTrabajos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-07.png" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-08.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-08.png" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-03.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-04.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-09.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./img/trabajos-01.png" class="img-fluid">
-                                    </div>
-
-                                </div>
-                            </div>
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-03.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-04.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-09.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col p-0 border border-end-0 border-3 border-dark">
+                            <img src="./img/trabajos-01.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <h5 class="mt-2 fw-light">advances one slide at a time</h5>
         </div>
 
-        <div class="sobre">
+        <div class="sobre" alt="sobre">
             <h5>me llamo romina mariño y soy estudiante de diseño gráfico en alicante. </h5>
 
         </div>
