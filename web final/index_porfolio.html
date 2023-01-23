@@ -4,7 +4,7 @@
 <head>
 
     <link rel="stylesheet" href="./harrystyle.css">
-    <title>Portfolio Romina Mariño</title>
+    <title>romina</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
 
 <body>
 
-    <div class="container-fluid vh-100">
+    <div class="container-fluid vh-100 p-0">
         <div class="row encabezado border border-3 border-dark sticky-top">
             <div class="col-sm-3">
                 <h1 class="yo">romina.</h1>
@@ -40,11 +40,13 @@
         <div class="row cuerpazo border border-top-0 border-3 border-dark">
             <div class="col-sm-6 p-0 border-end border-3 border-dark"><img src="./img/portfolio.png" class="img-fluid">
             </div>
-            <div class="row">
-                <div class="col-sm-12"></div>
-                <div class="col-sm-12 bienvenida">Hola :) Me llamo Romina y por aquí verás algunos de mis trabajos.</div>
+            <div class="col-sm-6 d-flex">
+                <div class="bottom bienvenida">
+                    TRABAJOS Y DISEÑOS CHULIS
+                    <br>
+                    <p class="link hover-underline-animation">+ info.</p>
+                </div>
             </div>
-        
         </div>
 
         <div class="comentarios">
@@ -65,8 +67,112 @@
             </div>
         </div>
 
+
+        <script>
+            let items = document.querySelectorAll('.carousel .carousel-item')
+
+            items.forEach((el) => {
+                const minPerSlide = 4
+                let next = el.nextElementSibling
+                for (var i = 1; i < minPerSlide; i++) {
+                    if (!next) {
+                        // wrap carousel by using first child
+                        next = items[0]
+                    }
+                    let cloneChild = next.cloneNode(true)
+                    el.appendChild(cloneChild.children[0])
+                    next = next.nextElementSibling
+                }
+            })
+        </script>
+
+
+        <div class="container text-center my-3">
+            <div class="row mx-auto my-auto justify-content-center">
+                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-07.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-08.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-03.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-04.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-09.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="./img/trabajos-01.png" class="img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+            <h5 class="mt-2 fw-light">advances one slide at a time</h5>
+        </div>
+
+        <div class="sobre">
+            <h5>me llamo romina mariño y soy estudiante de diseño gráfico en alicante. </h5>
+
+        </div>
+
+
     </div>
-    </div>
+
 </body>
 
 </html>
