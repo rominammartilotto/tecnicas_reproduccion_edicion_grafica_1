@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .encabezado {
     height: 15%;
     background-color: white;
@@ -114,6 +118,7 @@ h4 {
 
 .sobre {
     background-color: #E94E1A;
+    margin-bottom: 0%;
 }
 
 h5 {
@@ -133,6 +138,7 @@ h5 {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    margin-top: -1%;
 }
 
 h6 {
